@@ -36,6 +36,9 @@
 		BE70F5F81F274C3C00D3E083 /* TuWanModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BE70F5F71F274C3C00D3E083 /* TuWanModel.m */; };
 		BE8546451F3844C900225E5D /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8546441F3844C900225E5D /* Factory.m */; };
 		BE8546481F3858E700225E5D /* TuWanViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8546471F3858E700225E5D /* TuWanViewModel.m */; };
+		BE85464B1F399BA700225E5D /* TuWanListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85464A1F399BA700225E5D /* TuWanListViewController.m */; };
+		BE85464E1F399C1A00225E5D /* TuWanListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85464D1F399C1A00225E5D /* TuWanListCell.m */; };
+		BE8546511F39B25F00225E5D /* TuWanImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8546501F39B25F00225E5D /* TuWanImageCell.m */; };
 		BEA15A6B1F341C32001B52B0 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA15A6A1F341C32001B52B0 /* CoreTelephony.framework */; };
 		BEA15A6D1F341C3B001B52B0 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA15A6C1F341C3B001B52B0 /* libz.tbd */; };
 		BEA15B111F3420D1001B52B0 /* DuoWanTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA15B101F3420D1001B52B0 /* DuoWanTabBarController.m */; };
@@ -120,6 +123,12 @@
 		BE8546441F3844C900225E5D /* Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Factory.m; sourceTree = "<group>"; };
 		BE8546461F3858E700225E5D /* TuWanViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanViewModel.h; sourceTree = "<group>"; };
 		BE8546471F3858E700225E5D /* TuWanViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanViewModel.m; sourceTree = "<group>"; };
+		BE8546491F399BA700225E5D /* TuWanListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanListViewController.h; sourceTree = "<group>"; };
+		BE85464A1F399BA700225E5D /* TuWanListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanListViewController.m; sourceTree = "<group>"; };
+		BE85464C1F399C1A00225E5D /* TuWanListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanListCell.h; sourceTree = "<group>"; };
+		BE85464D1F399C1A00225E5D /* TuWanListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanListCell.m; sourceTree = "<group>"; };
+		BE85464F1F39B25F00225E5D /* TuWanImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanImageCell.h; sourceTree = "<group>"; };
+		BE8546501F39B25F00225E5D /* TuWanImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanImageCell.m; sourceTree = "<group>"; };
 		BEA15A681F341C0E001B52B0 /* UMMobClick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMMobClick.framework; path = "../../Downloads/umsdk_IOS_analyics_idfa_v4.2-2.4/UMMobClick.framework"; sourceTree = "<group>"; };
 		BEA15A6A1F341C32001B52B0 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		BEA15A6C1F341C3B001B52B0 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
@@ -300,6 +309,8 @@
 			children = (
 				BEA15B121F342124001B52B0 /* TuWanViewController.h */,
 				BEA15B131F342124001B52B0 /* TuWanViewController.m */,
+				BE8546491F399BA700225E5D /* TuWanListViewController.h */,
+				BE85464A1F399BA700225E5D /* TuWanListViewController.m */,
 			);
 			path = "兔玩游戏";
 			sourceTree = "<group>";
@@ -397,6 +408,10 @@
 		BEB37DB61EA761B800FE155F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BE85464C1F399C1A00225E5D /* TuWanListCell.h */,
+				BE85464D1F399C1A00225E5D /* TuWanListCell.m */,
+				BE85464F1F39B25F00225E5D /* TuWanImageCell.h */,
+				BE8546501F39B25F00225E5D /* TuWanImageCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -626,6 +641,7 @@
 				BE0514631EBC30D2005A90B5 /* NSObject+Common.m in Sources */,
 				BE1C30831F28478F0073AE58 /* HeroWeekDataModel.m in Sources */,
 				BE0514651EBC30D2005A90B5 /* NSString+QRCode.m in Sources */,
+				BE85464B1F399BA700225E5D /* TuWanListViewController.m in Sources */,
 				BE1C30801F2847010073AE58 /* HeroVideoModel.m in Sources */,
 				BE1C308F1F2848940073AE58 /* ToolMenuModel.m in Sources */,
 				BE05146B1EBC3309005A90B5 /* AppDelegate+Category.m in Sources */,
@@ -640,10 +656,12 @@
 				BEA15B111F3420D1001B52B0 /* DuoWanTabBarController.m in Sources */,
 				BE0514641EBC30D2005A90B5 /* NSString+PJR.m in Sources */,
 				BE1C30951F2848EC0073AE58 /* ZBItemModel.m in Sources */,
+				BE8546511F39B25F00225E5D /* TuWanImageCell.m in Sources */,
 				BEA15B1D1F3421CE001B52B0 /* LeftViewController.m in Sources */,
 				BE1C30861F2847D50073AE58 /* ItemDetailModel.m in Sources */,
 				BE8546481F3858E700225E5D /* TuWanViewModel.m in Sources */,
 				BEA15B1A1F342189001B52B0 /* RankListViewController.m in Sources */,
+				BE85464E1F399C1A00225E5D /* TuWanListCell.m in Sources */,
 				BEA15B141F342124001B52B0 /* TuWanViewController.m in Sources */,
 				BE70F5F81F274C3C00D3E083 /* TuWanModel.m in Sources */,
 				BE2356361F28334C00B4DEFF /* AlbumModel.m in Sources */,

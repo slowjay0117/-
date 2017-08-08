@@ -10,9 +10,7 @@
 #import "TuWanViewModel.h"
 
 @interface TuWanViewController ()
-
 @end
-
 @implementation TuWanViewController
 
 + (UINavigationController *)standardTuWanNavi{
