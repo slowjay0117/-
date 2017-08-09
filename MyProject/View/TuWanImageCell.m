@@ -21,27 +21,28 @@
         _clickNumLb = [UILabel new];
         _clickNumLb.font = [UIFont systemFontOfSize:12];
         _clickNumLb.textColor = [UIColor lightGrayColor];
+        _clickNumLb.textAlignment = NSTextAlignmentRight;
     }
     return _clickNumLb;
 }
 - (UIImageView *)iconIV0{
     if (!_iconIV0) {
         _iconIV0 = [UIImageView new];
-        _iconIV0.contentMode = UIViewContentModeScaleAspectFill;
+        //_iconIV0.contentMode = UIViewContentModeScaleAspectFill;
     }
     return _iconIV0;
 }
 - (UIImageView *)iconIV1{
     if (!_iconIV1) {
         _iconIV1 = [UIImageView new];
-        _iconIV1.contentMode = 2;
+        //_iconIV1.contentMode = 2;
     }
     return _iconIV1;
 }
 - (UIImageView *)iconIV2{
     if (!_iconIV2) {
         _iconIV2 = [UIImageView new];
-        _iconIV2.contentMode = 2;
+        //_iconIV2.contentMode = 2;
     }
     return _iconIV2;
 }
@@ -62,7 +63,8 @@
         [self.clickNumLb mas_makeConstraints:^(MASConstraintMaker *make) {
             make.top.mas_equalTo(10);
             make.right.mas_equalTo(-10);
-            make.width.mas_greaterThanOrEqualTo(40).mas_lessThanOrEqualTo(70);
+            make.width.mas_lessThanOrEqualTo(70);
+            make.width.mas_greaterThanOrEqualTo(40);
         }];
         /** 图片：宽高相等，间距5，边缘10 高度88 上边缘5 */
         [self.iconIV0 mas_makeConstraints:^(MASConstraintMaker *make) {
