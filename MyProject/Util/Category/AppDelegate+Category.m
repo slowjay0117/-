@@ -38,6 +38,8 @@
     //启动友盟统计功能
     UMConfigInstance.appKey = @"5983e41107fe6544da0003d8";
     UMConfigInstance.channelId = @"App Store";
+    //友盟统计默认情况下会关闭掉xcode默认的crash提示
+    [MobClick setLogEnabled:YES];
     
     [MobClick startWithConfigure:UMConfigInstance];
 }
