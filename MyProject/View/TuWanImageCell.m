@@ -25,23 +25,23 @@
     }
     return _clickNumLb;
 }
-- (UIImageView *)iconIV0{
+- (MyImageView *)iconIV0{
     if (!_iconIV0) {
-        _iconIV0 = [UIImageView new];
+        _iconIV0 = [MyImageView new];
         //_iconIV0.contentMode = UIViewContentModeScaleAspectFill;
     }
     return _iconIV0;
 }
-- (UIImageView *)iconIV1{
+- (MyImageView *)iconIV1{
     if (!_iconIV1) {
-        _iconIV1 = [UIImageView new];
+        _iconIV1 = [MyImageView new];
         //_iconIV1.contentMode = 2;
     }
     return _iconIV1;
 }
-- (UIImageView *)iconIV2{
+- (MyImageView *)iconIV2{
     if (!_iconIV2) {
-        _iconIV2 = [UIImageView new];
+        _iconIV2 = [MyImageView new];
         //_iconIV2.contentMode = 2;
     }
     return _iconIV2;
@@ -56,7 +56,7 @@
         [self.contentView addSubview:self.iconIV2];
         /** 题目 左上 10，右10 */
         [self.titleLb mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.left.top.mas_equalTo(0);
+            make.left.top.mas_equalTo(10);
             make.right.mas_equalTo(self.clickNumLb.mas_left).mas_equalTo(-10);
         }];
         /** 点击数 上右10像素，宽度最大70，最小40 */

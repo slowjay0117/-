@@ -7,7 +7,6 @@
 //
 
 #import "TuWanViewController.h"
-#import "TuWanViewModel.h"
 #import "TuWanListViewController.h"
 
 @interface TuWanViewController ()

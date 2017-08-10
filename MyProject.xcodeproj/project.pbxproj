@@ -33,6 +33,8 @@
 		BE1C30A11F287B600073AE58 /* XiMaLaYaNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1C30A01F287B600073AE58 /* XiMaLaYaNetManager.m */; };
 		BE2356361F28334C00B4DEFF /* AlbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2356351F28334C00B4DEFF /* AlbumModel.m */; };
 		BE2356391F28387300B4DEFF /* HeroSkinModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2356381F28387300B4DEFF /* HeroSkinModel.m */; };
+		BE437F7B1F3AEDAB002BD5EF /* MyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE437F7A1F3AEDAB002BD5EF /* MyImageView.m */; };
+		BE437F7E1F3B1048002BD5EF /* TuWanHtmlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE437F7D1F3B1048002BD5EF /* TuWanHtmlViewController.m */; };
 		BE70F5F81F274C3C00D3E083 /* TuWanModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BE70F5F71F274C3C00D3E083 /* TuWanModel.m */; };
 		BE8546451F3844C900225E5D /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8546441F3844C900225E5D /* Factory.m */; };
 		BE8546481F3858E700225E5D /* TuWanViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8546471F3858E700225E5D /* TuWanViewModel.m */; };
@@ -117,6 +119,10 @@
 		BE2356351F28334C00B4DEFF /* AlbumModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumModel.m; sourceTree = "<group>"; };
 		BE2356371F28387300B4DEFF /* HeroSkinModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroSkinModel.h; sourceTree = "<group>"; };
 		BE2356381F28387300B4DEFF /* HeroSkinModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroSkinModel.m; sourceTree = "<group>"; };
+		BE437F791F3AEDAB002BD5EF /* MyImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyImageView.h; sourceTree = "<group>"; };
+		BE437F7A1F3AEDAB002BD5EF /* MyImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyImageView.m; sourceTree = "<group>"; };
+		BE437F7C1F3B1048002BD5EF /* TuWanHtmlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanHtmlViewController.h; sourceTree = "<group>"; };
+		BE437F7D1F3B1048002BD5EF /* TuWanHtmlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanHtmlViewController.m; sourceTree = "<group>"; };
 		BE70F5F61F274C3C00D3E083 /* TuWanModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanModel.h; sourceTree = "<group>"; };
 		BE70F5F71F274C3C00D3E083 /* TuWanModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanModel.m; sourceTree = "<group>"; };
 		BE8546431F3844C900225E5D /* Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
@@ -311,6 +317,8 @@
 				BEA15B131F342124001B52B0 /* TuWanViewController.m */,
 				BE8546491F399BA700225E5D /* TuWanListViewController.h */,
 				BE85464A1F399BA700225E5D /* TuWanListViewController.m */,
+				BE437F7C1F3B1048002BD5EF /* TuWanHtmlViewController.h */,
+				BE437F7D1F3B1048002BD5EF /* TuWanHtmlViewController.m */,
 			);
 			path = "兔玩游戏";
 			sourceTree = "<group>";
@@ -412,6 +420,8 @@
 				BE85464D1F399C1A00225E5D /* TuWanListCell.m */,
 				BE85464F1F39B25F00225E5D /* TuWanImageCell.h */,
 				BE8546501F39B25F00225E5D /* TuWanImageCell.m */,
+				BE437F791F3AEDAB002BD5EF /* MyImageView.h */,
+				BE437F7A1F3AEDAB002BD5EF /* MyImageView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -627,6 +637,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE437F7B1F3AEDAB002BD5EF /* MyImageView.m in Sources */,
 				BE1C30921F2848BE0073AE58 /* ZBCategoryModel.m in Sources */,
 				BE1C30741F2845DD0073AE58 /* HeroChangeModel.m in Sources */,
 				BEB37DC31EA762AC00FE155F /* BaseNetManager.m in Sources */,
@@ -638,6 +649,7 @@
 				BE1C30711F2845820073AE58 /* GiftModel.m in Sources */,
 				BE2356391F28387300B4DEFF /* HeroSkinModel.m in Sources */,
 				BEB37DA21EA760C200FE155F /* AppDelegate.m in Sources */,
+				BE437F7E1F3B1048002BD5EF /* TuWanHtmlViewController.m in Sources */,
 				BE0514631EBC30D2005A90B5 /* NSObject+Common.m in Sources */,
 				BE1C30831F28478F0073AE58 /* HeroWeekDataModel.m in Sources */,
 				BE0514651EBC30D2005A90B5 /* NSString+QRCode.m in Sources */,
