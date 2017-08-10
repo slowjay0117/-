@@ -108,4 +108,16 @@
     }];
     
 }
+
++ (id)getVideoDetailWithId:(NSString *)aid kCompletionHandle{
+    return [self GET:kTuWanPath parameters:@{@"aid":aid, kAppId} completionHandler:^(id responseObj, NSError *error) {
+        completionHandle([TuWanVideoModel mj_objectArrayWithKeyValuesArray:responseObj], error);
+    }];
+}
+
++ (id)getPicDetailWithId:(NSString *)aid kCompletionHandle{
+    return [self GET:kTuWanPath parameters:@{@"aid":aid, kAppId} completionHandler:^(id responseObj, NSError *error) {
+        completionHandle([TuWanPicModel mj_objectArrayWithKeyValuesArray:responseObj], error);
+    }];
+}
 @end

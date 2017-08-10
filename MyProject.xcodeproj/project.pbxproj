@@ -35,6 +35,8 @@
 		BE2356391F28387300B4DEFF /* HeroSkinModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2356381F28387300B4DEFF /* HeroSkinModel.m */; };
 		BE437F7B1F3AEDAB002BD5EF /* MyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE437F7A1F3AEDAB002BD5EF /* MyImageView.m */; };
 		BE437F7E1F3B1048002BD5EF /* TuWanHtmlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE437F7D1F3B1048002BD5EF /* TuWanHtmlViewController.m */; };
+		BE445FB31F3C0305009D37B8 /* TuWanPicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BE445FB21F3C0305009D37B8 /* TuWanPicModel.m */; };
+		BE445FB61F3C0318009D37B8 /* TuWanVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BE445FB51F3C0318009D37B8 /* TuWanVideoModel.m */; };
 		BE70F5F81F274C3C00D3E083 /* TuWanModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BE70F5F71F274C3C00D3E083 /* TuWanModel.m */; };
 		BE8546451F3844C900225E5D /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8546441F3844C900225E5D /* Factory.m */; };
 		BE8546481F3858E700225E5D /* TuWanViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8546471F3858E700225E5D /* TuWanViewModel.m */; };
@@ -123,6 +125,10 @@
 		BE437F7A1F3AEDAB002BD5EF /* MyImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyImageView.m; sourceTree = "<group>"; };
 		BE437F7C1F3B1048002BD5EF /* TuWanHtmlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanHtmlViewController.h; sourceTree = "<group>"; };
 		BE437F7D1F3B1048002BD5EF /* TuWanHtmlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanHtmlViewController.m; sourceTree = "<group>"; };
+		BE445FB11F3C0305009D37B8 /* TuWanPicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanPicModel.h; sourceTree = "<group>"; };
+		BE445FB21F3C0305009D37B8 /* TuWanPicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanPicModel.m; sourceTree = "<group>"; };
+		BE445FB41F3C0318009D37B8 /* TuWanVideoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanVideoModel.h; sourceTree = "<group>"; };
+		BE445FB51F3C0318009D37B8 /* TuWanVideoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanVideoModel.m; sourceTree = "<group>"; };
 		BE70F5F61F274C3C00D3E083 /* TuWanModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanModel.h; sourceTree = "<group>"; };
 		BE70F5F71F274C3C00D3E083 /* TuWanModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanModel.m; sourceTree = "<group>"; };
 		BE8546431F3844C900225E5D /* Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
@@ -255,6 +261,10 @@
 			children = (
 				BE70F5F61F274C3C00D3E083 /* TuWanModel.h */,
 				BE70F5F71F274C3C00D3E083 /* TuWanModel.m */,
+				BE445FB11F3C0305009D37B8 /* TuWanPicModel.h */,
+				BE445FB21F3C0305009D37B8 /* TuWanPicModel.m */,
+				BE445FB41F3C0318009D37B8 /* TuWanVideoModel.h */,
+				BE445FB51F3C0318009D37B8 /* TuWanVideoModel.m */,
 			);
 			path = "兔玩";
 			sourceTree = "<group>";
@@ -650,6 +660,7 @@
 				BE2356391F28387300B4DEFF /* HeroSkinModel.m in Sources */,
 				BEB37DA21EA760C200FE155F /* AppDelegate.m in Sources */,
 				BE437F7E1F3B1048002BD5EF /* TuWanHtmlViewController.m in Sources */,
+				BE445FB61F3C0318009D37B8 /* TuWanVideoModel.m in Sources */,
 				BE0514631EBC30D2005A90B5 /* NSObject+Common.m in Sources */,
 				BE1C30831F28478F0073AE58 /* HeroWeekDataModel.m in Sources */,
 				BE0514651EBC30D2005A90B5 /* NSString+QRCode.m in Sources */,
@@ -675,6 +686,7 @@
 				BEA15B1A1F342189001B52B0 /* RankListViewController.m in Sources */,
 				BE85464E1F399C1A00225E5D /* TuWanListCell.m in Sources */,
 				BEA15B141F342124001B52B0 /* TuWanViewController.m in Sources */,
+				BE445FB31F3C0305009D37B8 /* TuWanPicModel.m in Sources */,
 				BE70F5F81F274C3C00D3E083 /* TuWanModel.m in Sources */,
 				BE2356361F28334C00B4DEFF /* AlbumModel.m in Sources */,
 				BE1C30681F28440C0073AE58 /* FreeHeroModel.m in Sources */,

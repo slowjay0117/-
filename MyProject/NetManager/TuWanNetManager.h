@@ -8,6 +8,8 @@
 
 #import "BaseNetManager.h"
 #import "TuWanModel.h"
+#import "TuWanPicModel.h"
+#import "TuWanVideoModel.h"
 
 typedef NS_ENUM(NSInteger, InfoType){
     InfoTypeTouTiao,    //头条
@@ -39,5 +41,9 @@ typedef NS_ENUM(NSInteger, InfoType){
  *  @return 请求所在任务
  */
 + (id)getTuWanInfoWithType:(InfoType)type start:(NSInteger)start kCompletionHandle;
+
++ (id)getVideoDetailWithId:(NSString *)aid kCompletionHandle;
+
++ (id)getPicDetailWithId:(NSString *)aid kCompletionHandle;
 
 @end
